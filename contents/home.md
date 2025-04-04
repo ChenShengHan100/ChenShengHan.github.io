@@ -1,4 +1,5 @@
-[![chenShenghan](chenShenghan)](https://github.com/ChenShengHan100)
+[Chen ShengHan's Portfolio](https://chenshenghan100.github.io/ChenShengHan.github.io/) | 
+[GitHub Profile](https://github.com/ChenShengHan100)
 
 I am currently pursuing a bachelor's degree in software engineering at the School of Software at Shandong University.
 #### Email  

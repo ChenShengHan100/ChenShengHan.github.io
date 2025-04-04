@@ -1,11 +1,10 @@
-- 国家奖学金, 2023.
-- 小米奖学金, 2022.
-- 山东大学一等学业奖学金, 2023
-- 山东大学二等学业奖学金, 2022/2024
-- 山东大学三好学生, 2023
-- 山东大学优秀共青团员, 2022/2023/2024
-- 山东大学社会实践先进个人, 2024
-- 山东大学创新创业先进个人, 2023
-- 全国大学生数学建模竞赛山东省二等奖, 2023
-- 美国大学生数学建模竞赛F奖, 2024
-- 全国大学生互联网+创新创业大赛山东省二等奖, 2022
+- National Scholarship, 2023.
+- CSDN Top 100 Bloggers, Fans 2W+, 2024
+- Xiaomi Scholarship, 2022.
+- Shandong University First-Class Academic Scholarship, 2023
+- Shandong University Second-Class Academic Scholarship, 2022/2024
+- Merit Student of Shandong University, 2023
+  Outstanding Communist Youth League Member of Shandong University, 2022/2023/2024
+- Advanced Individual in Social Practice, Shandong University, 2024
+- Advanced Individual in Innovation and Entrepreneurship, Shandong University, 2023
+

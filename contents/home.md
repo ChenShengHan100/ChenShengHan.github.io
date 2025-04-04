@@ -6,7 +6,7 @@ I am currently pursuing a bachelor's degree in software engineering at the Schoo
 
 #### Education  
 **Shandong University**, bachelor of software (2022 – 2026)  
-• GPA: 91/100 (top 5%)
+• GPA: 91.4/100 (top 5%)
 
 
 #### Research Interests  

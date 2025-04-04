@@ -1,21 +1,81 @@
-### **Software Engineer Intern**  
-**January 2025 – June 2025 | ByteDance**  
+### **Working as the research assistant of Professor Lu Xiankai**  
+**January 2023 – NOW | Time laboratory**  
 
-Worked on the development and optimization of large-scale recommendation systems, focusing on algorithm improvements and system efficiency enhancements. Contributed to real-time data processing pipelines and model optimization for personalized content delivery.
+engaged in research on depth visual recognition of long-tail data distributions
 
 #### Key Contributions:  
-- Developed and optimized recommendation algorithms to enhance user engagement and content relevance.  
-- Designed and implemented real-time data processing workflows to improve model inference efficiency.  
-- Conducted A/B testing and performance analysis to refine recommendation strategies based on user behavior data.  
+- Long-tail detection, diffusion model, multi-objective optimization and other methods are used to improve the accuracy of image recognition
+- Based on YOLOV5, photovoltaic disease detection was completed
 
----
 
-### **软件工程师实习生**  
-**2025年1月 – 2025年6月 | 字节跳动**  
 
-负责大规模推荐系统的开发与优化，专注于算法改进和系统效率提升。参与实时数据处理管道的构建，并优化模型推理流程，以提升个性化内容推荐效果。
 
-#### 主要贡献:  
-- 研发并优化推荐算法，提高用户互动率和内容相关性。  
-- 设计并实现实时数据处理流程，提升模型推理的计算效率。  
-- 进行A/B测试与性能分析，基于用户行为数据优化推荐策略。
+### **Second Prize, Shandong Provincial "Internet+" Innovation Competition**
+**March 2023 | ShanDong University**
+
+Developed robotic system for tunnel disease detection with autonomous navigation
+
+#### Key Contributions:
+- Role: Algorithm Designer specializing in optimal path planning
+- Tools: Python, Mathematical Modeling
+
+### **Photovoltaic defect detection**
+**November 2023 | Shandong Rongling Company**
+
+Under the guidance of Professor Lu Xiankai, he used YOLOV5 for Shandong Rongling Company to write photovoltaic disease detection, including dataset labeling, model training, etc
+
+#### Key Contributions:
+- Role: The core members are responsible for dataset annotation, model training, and subsequent ramp-ups
+- Tools: PyTorch, Python
+
+
+### **Second Prize of Shandong Province in National Collegiate Mathematical Contest in Modeling**
+**September 2024 | ShanDong University**
+
+The focus is on calculating the number of vegetables that need to be supplied to each supermarket for vegetable suppliers, as well as planning the route, sequence, and vehicles to be used for delivery
+
+#### Key Contributions:
+- Role: Team Captain responsible for mathematical modeling, programming, data visualization and paper writing
+- Tools: MATLAB, Python, LaTeX, SPSS, Stata, Microsoft Office
+
+
+
+### **First prize of Shandong University in the National Mathematical Contest in Modeling**
+**Augest 2024 | ShanDong University**
+
+Choosing a location for the construction of a factory in the city of Jinan
+
+#### Key Contributions:
+- Role: Team Captain responsible for mathematical modeling, programming, data visualization, and paper writing
+- Tools: MATLAB, Python, LaTeX, SPSS, Stata, Microsoft Office
+
+
+
+### **The first prize of Shandong University "Internet+" Innovation Competition**
+**March 2023 | ShanDong University**
+
+Developed robotic system for tunnel disease detection with autonomous navigation
+
+#### Key Contributions:
+- Role: Algorithm Designer specializing in optimal path planning
+- Tools: Python, Mathematical Modeling
+
+
+### **Intelligent generation system for academic posters**
+**April 2025 | Shandong University**
+
+It is a system that uses large models such as Deepseek to complete the input of papers and automatically generate academic posters
+
+#### Key Contributions:
+- Role: The team leader is mainly responsible for format generation, background image personalization generation, etc
+- Tools: PyTorch, Python,  echarts, html, css, JavaScript, TypeScript
+
+
+### **Takeaway applet**
+**September 2024 | Shandong University**
+
+Imitate the Meituan takeaway software to write a takeaway system with three terminals (takeaways, users, and merchants).
+
+#### Key Contributions:
+- Role: Team Captain
+- Tools: Java, echarts, html, css, uniapp, mybatis, vue

@@ -1,4 +1,4 @@
-[![chenShenghan](https://img.shields.io/badge/XX-github-blue?logo=github)](https://github.com/ChenShengHan100)
+[![chenShenghan](chenShenghan)](https://github.com/ChenShengHan100)
 
 I am currently pursuing a bachelor's degree in software engineering at the School of Software at Shandong University.
 #### Email  

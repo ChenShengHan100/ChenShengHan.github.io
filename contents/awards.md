@@ -1,7 +1,7 @@
 | Award | Institution & Year |
 | :--- | ---: |
 | National Scholarship | Ministry of Education of China, 2024 |
-| CSDN Top 100 Bloggers | Fans 2W+, 2025 |
+| CSDN Top 100 Bloggers | CSDN, 2025 |
 | Xiaomi Scholarship | Xiaomi Corporation of China (Fortune Global 500), 2023 |
 | First-Class Academic Scholarship | Shandong University, 2024 |
 | Second-Class Academic Scholarship | Shandong University, 2022/2025 |

@@ -1,81 +1,42 @@
-### **Working as the research assistant of Professor Lu Xiankai**  
-**January 2023 – NOW | Time laboratory**  
+### **Research Assistant**
+**2024–Present | SDU Time Lab**
 
-engaged in research on depth visual recognition of long-tail data distributions
-
-#### Key Contributions:  
-- Long-tail detection, diffusion model, multi-objective optimization and other methods are used to improve the accuracy of image recognition
-- Based on YOLOV5, photovoltaic disease detection was completed
-
-
-
-
-### **Second Prize, Shandong Provincial "Internet+" Innovation Competition**
-**March 2023 | ShanDong University**
-
-Developed robotic system for tunnel disease detection with autonomous navigation
+Engaged in research on long-tailed visual recognition under the guidance of Prof. Xiankai Lu and Prof. Yilong Yin.
 
 #### Key Contributions:
-- Role: Algorithm Designer specializing in optimal path planning
-- Tools: Python, Mathematical Modeling
+-   Developed a novel data augmentation framework where a multi-agent system perceives the classifier's state to dynamically select optimal augmentation policies for long-tailed recognition (AAAI 2026 under Review).
+-   Tackled the long-tailed recognition problem from an optimization perspective by designing a specialized optimizer for imbalanced data (CVPR 2026 in Preparation).
 
-### **Photovoltaic defect detection**
-**November 2023 | Shandong Rongling Company**
+### **Finalist Award, Mathematical Contest in Modeling (MCM)**
+**2024 | International**
 
-Under the guidance of Professor Lu Xiankai, he used YOLOV5 for Shandong Rongling Company to write photovoltaic disease detection, including dataset labeling, model training, etc
-
-#### Key Contributions:
-- Role: The core members are responsible for dataset annotation, model training, and subsequent ramp-ups
-- Tools: PyTorch, Python
-
-
-### **Second Prize of Shandong Province in National Collegiate Mathematical Contest in Modeling**
-**September 2024 | ShanDong University**
-
-The focus is on calculating the number of vegetables that need to be supplied to each supermarket for vegetable suppliers, as well as planning the route, sequence, and vehicles to be used for delivery
+Developed a predictive model to optimize insurance premium pricing based on regional disaster risk analysis.
 
 #### Key Contributions:
-- Role: Team Captain responsible for mathematical modeling, programming, data visualization and paper writing
-- Tools: MATLAB, Python, LaTeX, SPSS, Stata, Microsoft Office
+-   Role: Team Captain
 
+### **First Prize, Internet+ Innovation Competition of China**
+**2023 | Shandong University**
 
-
-### **First prize of Shandong University in the National Mathematical Contest in Modeling**
-**Augest 2024 | ShanDong University**
-
-Choosing a location for the construction of a factory in the city of Jinan
+Developed a robotic system for tunnel disease detection with autonomous navigation.
 
 #### Key Contributions:
-- Role: Team Captain responsible for mathematical modeling, programming, data visualization, and paper writing
-- Tools: MATLAB, Python, LaTeX, SPSS, Stata, Microsoft Office
+-   Role: Team Captain
 
+### **First Prize, Mathematical Contest in Modeling of Shandong Province**
+**2024 | Shandong University**
 
-
-### **The first prize of Shandong University "Internet+" Innovation Competition**
-**March 2023 | ShanDong University**
-
-Developed robotic system for tunnel disease detection with autonomous navigation
+Addressed a complex optimization problem within a vegetable supply chain, focusing on demand forecasting and efficient delivery path planning.
 
 #### Key Contributions:
-- Role: Algorithm Designer specializing in optimal path planning
-- Tools: Python, Mathematical Modeling
+-   Role: Team Captain
 
+### **Photovoltaic Defect Detection**
+**2024 | Shandong Rongling Corp.**
 
-### **Intelligent generation system for academic posters**
-**April 2025 | Shandong University**
+Collaborated with Shandong Rongling Corp. to develop and implement a real-world defect detection system for photovoltaic panels, utilizing YOLOv5 for automated visual inspection.
 
-It is a system that uses large models such as Deepseek to complete the input of papers and automatically generate academic posters
+### **Intelligent Academic Poster Generation System**
+**2025 | Shandong University**
 
-#### Key Contributions:
-- Role: The team leader is mainly responsible for format generation, background image personalization generation, etc
-- Tools: PyTorch, Python,  echarts, html, css, JavaScript, TypeScript
-
-
-### **Takeaway applet**
-**September 2024 | Shandong University**
-
-Imitate the Meituan takeaway software to write a takeaway system with three terminals (takeaways, users, and merchants).
-
-#### Key Contributions:
-- Role: Team Captain
-- Tools: Java, echarts, html, css, uniapp, mybatis, vue
+Developing an automated system to generate academic posters from research papers using Large Language Models (LLMs), featuring a Multi-Agent Debate system, Knowledge Graph-based RAG, Automated Layout, and personalized background generation with CLIP & Text-to-Image models.

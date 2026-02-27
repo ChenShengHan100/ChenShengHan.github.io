@@ -1,4 +1,5 @@
 My current research on Long-Tailed Recognition has led to the following projects:
 
-- CVPR 2026 Accepted: Investigated the head-tail seesaw dilemma from the loss landscape view, transferring long-tailed learning into a continual learning task. Proposed using continuous learning and sharpness perception to counter overfitting and improve the model's attention to tail classes. (Status: Accepted by CVPR2026, Co-first author, listed first ).
-- Manuscript in Preparation: Rethought data augmentation in long-tailed recognition by focusing on data distribution shifts. Proposed an automated data augmentation approach based on large models to solve the bias problem caused by data imbalance and the mismatch between synthetic and raw data. (Status: Manuscript in preparation, Co-first author, listed first ).
+- **CVPR 2026 Accepted:** Investigated the head-tail seesaw dilemma from the loss landscape view, transferring long-tailed learning into a continual learning task. Proposed using continuous learning and sharpness perception to counter overfitting and improve the model's attention to tail classes. **(Status: Accepted by CVPR2026, Co-first author, listed first).**
+
+- Manuscript in Preparation: Rethought data augmentation in long-tailed recognition by focusing on data distribution shifts. Proposed an automated data augmentation approach based on large models to solve the bias problem caused by data imbalance and the mismatch between synthetic and raw data. (Status: Manuscript in preparation, Co-first author, listed first).

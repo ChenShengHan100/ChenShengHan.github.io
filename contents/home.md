@@ -1,5 +1,5 @@
-<a href="https://raw.githubusercontent.com/ChenShengHan100/ChenShengHan.github.io/main/static/assets/CV.pdf" download="ChenShenghan_CV.pdf">🌐 Chen ShengHan's Portfolio</a> | 
-[<i class="fab fa-github"></i> GitHub Profile](https://github.com/ChenShengHan100)
+<a href="https://raw.githubusercontent.com/ChenShengHan100/ChenShengHan.github.io/main/static/assets/CV.pdf" download="ChenShenghan_CV.pdf">🌐 Chen ShengHan's Resume</a> | 
+[<i class="fab fa-github"></i> Chen ShengHan's GitHub](https://github.com/ChenShengHan100)
 
 I am currently pursuing a bachelor's degree in software engineering at the School of Software at Shandong University.
 #### Contact 

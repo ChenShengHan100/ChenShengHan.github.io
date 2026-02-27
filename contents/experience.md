@@ -1,42 +1,44 @@
-### **Research Assistant**
-**2024–Present | SDU Time Lab**
+### **Undergraduate Research Assistant**
+**03/2025–Present | SDU Time Lab & ETH Zürich Collaboration**
 
-Engaged in research on long-tailed visual recognition under the guidance of Prof. Xiankai Lu and Prof. Yilong Yin.
-
-#### Key Contributions:
--   Developed a novel data augmentation framework where a multi-agent system perceives the classifier's state to dynamically select optimal augmentation policies for long-tailed recognition (AAAI 2026 under Review).
--   Tackled the long-tailed recognition problem from an optimization perspective by designing a specialized optimizer for imbalanced data (CVPR 2026 in Preparation).
-
-### **Finalist Award, Mathematical Contest in Modeling (MCM)**
-**2024 | International**
-
-Developed a predictive model to optimize insurance premium pricing based on regional disaster risk analysis.
+Worked under the supervision of Prof. Xiankai Lu and Prof. Yilong Yin at SDU Time Lab , and subsequently collaborated with Prof. Yawei Li from ETH Zürich on advanced research initiatives.
 
 #### Key Contributions:
--   Role: Team Captain
+-   Focused initial research on image recognition and semantic segmentation within the challenging context of data imbalance (Long-Tail Dataset).
+-   Integrated diffusion models and AI agents to develop robust solutions for mitigating the impact of imbalanced data distributions.
+-   Co-first author (listed first) on the paper "Reframing Long-tailed learning via Loss Landscape Geometry" (Accepted by CVPR 2026). Transferred long-tailed learning into a continual learning task to counter overfitting and improve generalization without using external synthetic data.
+-   Co-first author (listed first) on the paper "Towards Refined Data Augmentation for Long-tailed Recognition" (Manuscript in preparation). Proposed automated data augmentation based on large models to address bias and distribution shift problems caused by data imbalance.
 
-### **First Prize, Internet+ Innovation Competition of China**
-**2023 | Shandong University**
+### **Research and Development of Tunnel Disease Robots**
+**2023 | Shandong Province**
 
-Developed a robotic system for tunnel disease detection with autonomous navigation.
-
-#### Key Contributions:
--   Role: Team Captain
-
-### **First Prize, Mathematical Contest in Modeling of Shandong Province**
-**2024 | Shandong University**
-
-Addressed a complex optimization problem within a vegetable supply chain, focusing on demand forecasting and efficient delivery path planning.
+Participated in the research and development of tunnel disease robots and related innovation and entrepreneurship practices.
 
 #### Key Contributions:
--   Role: Team Captain
+-   Won the Silver Award in the 2023 China College Students' Innovation and Entrepreneurship Competition in Shandong Province.
 
-### **Photovoltaic Defect Detection**
-**2024 | Shandong Rongling Corp.**
-
-Collaborated with Shandong Rongling Corp. to develop and implement a real-world defect detection system for photovoltaic panels, utilizing YOLOv5 for automated visual inspection.
-
-### **Intelligent Academic Poster Generation System**
+### **Publicity Director & Participant, Career Planning Competition**
 **2025 | Shandong University**
 
-Developing an automated system to generate academic posters from research papers using Large Language Models (LLMs), featuring a Multi-Agent Debate system, Knowledge Graph-based RAG, Automated Layout, and personalized background generation with CLIP & Text-to-Image models.
+Served as both a participant and the publicity director for the university's Career Planning Competition.
+
+#### Key Contributions:
+-   Won the Second Prize at the university level in the final round.
+-   Organized promotional activities across all campuses, successfully attracting a large number of students through poster displays and presentations.
+
+### **Head of the Office Department, Student Union**
+**09/2021–2023 | Shandong University**
+
+Served as a member and subsequently the head of the Office Department.
+
+#### Key Contributions:
+-   Acted as the chief planner and host for the "Scholarly Shandong" event organized by the Qilu Transportation Institute in 2022.
+
+### **Class President**
+**09/2022–Present | School of Software, Shandong University**
+
+Served as the Class President for Class 1, Software Engineering.
+
+#### Key Contributions:
+-   Led the class committee, including the Youth League Secretary and Study Committee Member, to efficiently manage various class affairs.
+-   Successfully organized four class meetings and two class outings.

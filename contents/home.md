@@ -7,7 +7,9 @@ I am currently pursuing a bachelor's degree in software engineering at the Schoo
 
 #### Education  
 **Shandong University**, Software Engineering, Bachelor (09/2022 – 06/2026) 
+
 • GPA: 90.01/100
+
 • Urban Underground Space Engineering (09/2021 – 06/2022)
 
 

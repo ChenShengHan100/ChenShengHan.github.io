@@ -54,9 +54,9 @@
 
     <style>
         .custom-container {
-            max-width: 900px;
-            margin: 80px auto 0; /* 稍微减小了一点顶部间距 */
-            padding: 40px 20px;
+            max-width: 780px; /* 进一步调小最大宽度，增加左右留白 */
+            margin: 80px auto 0;
+            padding: 40px 30px; /* 增加了左右 padding 确保移动端也有足够的呼吸感 */
             color: #333;
         }
         /* 顶部简介区域 */
@@ -72,13 +72,13 @@
         }
         .bio-text h1 {
             font-family: 'Newsreader', serif;
-            font-size: 2.1em; /* 调小：原来是 2.5em */
+            font-size: 2.1em;
             margin-bottom: 12px;
             font-weight: 600;
         }
         .bio-text p {
             font-family: 'Mulish', sans-serif;
-            font-size: 1.05em; /* 调小：原来是 1.1em */
+            font-size: 1.05em;
             line-height: 1.6;
             margin-bottom: 12px;
         }
@@ -88,7 +88,7 @@
         .bio-links a {
             margin-right: 15px;
             font-weight: 600;
-            font-size: 1em; /* 调小：原来是 1.05em */
+            font-size: 1em;
             color: #1a73e8;
             text-decoration: none;
         }
@@ -96,7 +96,7 @@
             text-decoration: underline;
         }
         .profile-img-custom {
-            width: 180px; /* 调小头像：原来是 220px */
+            width: 180px;
             height: 180px;
             border-radius: 50%;
             object-fit: cover;
@@ -106,7 +106,7 @@
         /* 章节标题 */
         .section-title-custom {
             font-family: 'Newsreader', serif;
-            font-size: 1.7em; /* 调小：原来是 2em */
+            font-size: 1.7em;
             border-bottom: 2px solid #eaeaea;
             padding-bottom: 8px;
             margin-bottom: 25px;
@@ -120,7 +120,7 @@
             align-items: flex-start;
         }
         .paper-img {
-            width: 240px; /* 调小缩略图：原来是 260px */
+            width: 240px;
             height: 135px;
             object-fit: cover;
             margin-right: 25px;
@@ -134,27 +134,27 @@
             font-family: 'Mulish', sans-serif;
         }
         .paper-title {
-            font-size: 1.1em; /* 调小：原来是 1.2em */
+            font-size: 1.1em;
             font-weight: 700;
             color: #111;
             margin: 0 0 6px 0;
         }
         .paper-authors {
             margin: 0 0 4px 0;
-            font-size: 0.95em; /* 调小：原来是 1em */
+            font-size: 0.95em;
         }
         .paper-venue {
             font-style: italic;
             margin: 0 0 6px 0;
             color: #555;
-            font-size: 0.9em; /* 调小：原来是 0.95em */
+            font-size: 0.9em;
         }
         .paper-links {
             margin: 5px 0 8px 0;
         }
         .paper-links a {
             margin-right: 12px;
-            font-size: 0.9em; /* 调小：原来是 0.95em */
+            font-size: 0.9em;
             color: #1a73e8;
             text-decoration: none;
             font-weight: 600;
@@ -163,7 +163,7 @@
             text-decoration: underline;
         }
         .paper-desc {
-            font-size: 0.9em; /* 调小：原来是 0.95em */
+            font-size: 0.9em;
             color: #444;
             margin: 0;
             text-align: justify;

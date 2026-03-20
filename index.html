@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="yixin0313" />
-    <title id="title">Hanyang Wang - Personal Homepage</title>
+    <meta name="description" content="Shenghan Chen Academic Webpage" />
+    <meta name="author" content="Shenghan Chen" />
+    <title id="title">Shenghan Chen - Personal Homepage</title>
 
     <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
 
@@ -54,12 +54,11 @@
 
     <style>
         .custom-container {
-            max-width: 780px; /* 进一步调小最大宽度，增加左右留白 */
+            max-width: 780px; 
             margin: 80px auto 0;
-            padding: 40px 30px; /* 增加了左右 padding 确保移动端也有足够的呼吸感 */
+            padding: 40px 30px; 
             color: #333;
         }
-        /* 顶部简介区域 */
         .bio-header {
             display: flex;
             justify-content: space-between;
@@ -103,7 +102,6 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
 
-        /* 章节标题 */
         .section-title-custom {
             font-family: 'Newsreader', serif;
             font-size: 1.7em;
@@ -113,7 +111,6 @@
             font-weight: 600;
         }
 
-        /* 论文列表区域 */
         .paper-item {
             display: flex;
             margin-bottom: 35px;
@@ -170,7 +167,6 @@
             line-height: 1.5;
         }
 
-        /* Awards 列表样式 */
         .award-item {
             display: flex;
             justify-content: space-between;
@@ -202,7 +198,6 @@
             font-style: italic;
         }
 
-        /* 响应式手机端适配 */
         @media (max-width: 768px) {
             .bio-header {
                 flex-direction: column-reverse;
@@ -261,52 +256,49 @@
         
         <div class="bio-header">
             <div class="bio-text">
-                <h1>Hanyang Wang | 汪晗阳</h1>
-                <p>I'm currently a first-year master's student in the Department of Electronic Engineering at Tsinghua University, advised by Prof. Yueqi Duan. In 2025, I obtained my B.Eng. in the Department of Computer Science and Technology at Tsinghua University. I'm also working closely with Fangfu Liu.</p>
-                <p>My research interests lie in 3D Computer Vision, Video Generation, and AIGC.</p>
+                <h1>Shenghan Chen | 陈晟涵</h1>
+                <p>I am an undergraduate student majoring in Software Engineering at Shandong University. I am currently working as an Undergraduate Research Assistant at the SDU Time Lab, supervised by Prof. Xiankai Lu and Prof. Yilong Yin. Previously, I also collaborated with Prof. Yawei Li from ETH Zürich.</p>
+                <p>My research interests primarily lie in Computer Vision, Multi-modal Learning, Vision-Language-Action (VLA) models, and Efficient AI.</p>
                 <div class="bio-links">
-                    <a href="#">Email</a> / 
+                    <a href="mailto:939239367@qq.com">Email</a> / 
                     <a href="#">CV</a> / 
-                    <a href="#">Scholar</a> / 
+                    <a href="https://ChenShenghan.csdn">CSDN</a> / 
                     <a href="#">Github</a>
                 </div>
             </div>
-            <img src="static/assets/img/photo.png" onerror="this.src='https://via.placeholder.com/220'" alt="Profile Photo" class="profile-img-custom">
+            <img src="static/assets/img/photo.png" onerror="this.src='https://via.placeholder.com/220'" alt="Shenghan Chen Profile Photo" class="profile-img-custom">
         </div>
 
         <div id="publications" style="padding-top: 60px;"> 
             <h2 class="section-title-custom"><i class="bi bi-file-text-fill" style="font-size: 0.9em; margin-right: 5px;"></i> Publications</h2>
             <p style="font-size: 0.9em; color: #666; margin-bottom: 25px; font-family: 'Mulish', sans-serif;">
-                * indicates equal contribution. Some papers are highlighted.
+                * indicates equal contribution.
             </p>
 
             <div class="paper-item">
-                <img src="https://via.placeholder.com/400x240" alt="CFG-Ctrl" class="paper-img">
+                <img src="https://via.placeholder.com/400x240" alt="Paper Thumbnail" class="paper-img">
                 <div class="paper-info">
-                    <h3 class="paper-title">CFG-Ctrl: Control-Based Classifier-Free Diffusion Guidance</h3>
-                    <p class="paper-authors"><strong>Hanyang Wang*</strong>, Yiyang Liu*, Jiawei Chi, Fangfu Liu, Ran Xue, Yueqi Duan</p>
-                    <p class="paper-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</p>
+                    <h3 class="paper-title">Reframing Long-tailed learning via Loss Landscape Geometry</h3>
+                    <p class="paper-authors"><strong>Shenghan Chen*</strong>, [Other Authors]</p>
+                    <p class="paper-venue">Accepted by CVPR, 2026</p>
                     <div class="paper-links">
                         <a href="#">[arXiv]</a> 
                         <a href="#">[Code]</a> 
-                        <a href="#">[Project Page]</a>
                     </div>
-                    <p class="paper-desc">We propose CFG-Ctrl, a unified framework that reinterprets CFG as a control applied to the first-order continuous-time generative flow. Based on this control-theoretic view, we further introduce SMC-CFG, which uses sliding mode control to drive the flow toward a rapidly convergent sliding manifold.</p>
+                    <p class="paper-desc">We investigate the head-tail seesaw dilemma from the loss landscape view. By transferring long-tailed learning into a continual learning task, this paper uses continuous learning and sharpness perception to improve model attention to tail classes without relying on external synthetic data.</p>
                 </div>
             </div>
 
             <div class="paper-item">
-                <img src="https://via.placeholder.com/400x240" alt="ReconX" class="paper-img">
+                <img src="https://via.placeholder.com/400x240" alt="Paper Thumbnail" class="paper-img">
                 <div class="paper-info">
-                    <h3 class="paper-title">ReconX: Reconstruct Any Scene from Sparse Views with Video Diffusion Model</h3>
-                    <p class="paper-authors">Fangfu Liu*, Wenqiang Sun*, <strong>Hanyang Wang*</strong>, Yikai Wang, Haowen Sun, Junliang Ye, Jun Zhang, Yueqi Duan</p>
-                    <p class="paper-venue">IEEE Transactions on Image Processing (TIP), 2025</p>
+                    <h3 class="paper-title">Towards Refined Data Augmentation for Long-tailed Recognition</h3>
+                    <p class="paper-authors"><strong>Shenghan Chen*</strong>, [Other Authors]</p>
+                    <p class="paper-venue">Manuscript in preparation</p>
                     <div class="paper-links">
-                        <a href="#">[arXiv]</a> 
-                        <a href="#">[Code]</a> 
-                        <a href="#">[Project Page]</a>
+                        <a href="#">[Details]</a> 
                     </div>
-                    <p class="paper-desc">In this paper, we propose ReconX, a novel 3D scene reconstruction paradigm that reframes the ambiguous reconstruction challenge as a temporal generation task. The key insight is to unleash the strong generative prior of large pre-trained video diffusion models for sparse-view reconstruction.</p>
+                    <p class="paper-desc">We rethink data augmentation in Long-Tailed recognition, focusing on data distribution shift. Based on large models, we propose automated data augmentation to solve the bias problem caused by data imbalance and the mismatch between synthetic and raw data distributions.</p>
                 </div>
             </div>
         </div>
@@ -317,25 +309,41 @@
             <div class="award-item">
                 <div class="award-info">
                     <h3 class="award-title">National Scholarship</h3>
-                    <p class="award-desc">Awarded to the top 1% of students for outstanding academic performance.</p>
-                </div>
-                <div class="award-date">2024 & 2025</div>
-            </div>
-
-            <div class="award-item">
-                <div class="award-info">
-                    <h3 class="award-title">First Prize, Outstanding Student Scholarship</h3>
-                    <p class="award-desc">Tsinghua University.</p>
+                    <p class="award-desc">Ministry of Education</p>
                 </div>
                 <div class="award-date">2023</div>
             </div>
 
             <div class="award-item">
                 <div class="award-info">
-                    <h3 class="award-title">Excellent Undergraduate Thesis Award</h3>
-                    <p class="award-desc">Department of Computer Science and Technology, Tsinghua University.</p>
+                    <h3 class="award-title">Outstanding Graduate of Shandong University</h3>
+                    <p class="award-desc">Shandong University</p>
                 </div>
-                <div class="award-date">2025</div>
+                <div class="award-date">2026</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-info">
+                    <h3 class="award-title">First Prize of Outstanding Student Award</h3>
+                    <p class="award-desc">Shandong University</p>
+                </div>
+                <div class="award-date">2022-2023</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-info">
+                    <h3 class="award-title">First Prize of The Specialty Award in Entrepreneurial Practice</h3>
+                    <p class="award-desc">Shandong University</p>
+                </div>
+                <div class="award-date">2022-2023</div>
+            </div>
+            
+            <div class="award-item">
+                <div class="award-info">
+                    <h3 class="award-title">Xiaomi Scholarship</h3>
+                    <p class="award-desc">Shandong University</p>
+                </div>
+                <div class="award-date">2021-2022</div>
             </div>
 
         </div>
@@ -345,10 +353,10 @@
     <footer class="bg-bottom text-center py-5" style="border-top: 1px solid #eaeaea; background-color: #f8f9fa; margin-top: 40px;">
         <div class="container px-5">
             <div class="text-muted small">
-                <div id="copyright-text" class="mb-2">© 2026 Your Name. All Rights Reserved.</div>
-                <a id="github-link" href="https://github.com/senli1073" style="color: #6c757d;">Github</a>
+                <div id="copyright-text" class="mb-2">© 2026 Shenghan Chen. All Rights Reserved.</div>
+                <a id="github-link" href="#" style="color: #6c757d;">Github</a>
                 <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE" style="color: #6c757d;">License</a>
+                <a id="license-link" href="#" style="color: #6c757d;">License</a>
             </div>
         </div>
     </footer>

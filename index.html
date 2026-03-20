@@ -27,30 +27,22 @@
     <script type="text/javascript" src="static/js/marked.min.js"></script>
 
     <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
         MathJax = {
             tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',               // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
+                packages: {},
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: false,
+                processEnvironments: true,
+                processRefs: true,
+                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,
+                tags: 'all',
+                tagSide: 'right',
+                tagIndent: '0.8em',
+                useLabelIds: true,
+                maxMacros: 10000,
+                maxBuffer: 5 * 1024,
+                formatError: (jax, err) => jax.formatError(err)
             }
         };
     </script>
@@ -63,7 +55,7 @@
     <style>
         .custom-container {
             max-width: 900px;
-            margin: 100px auto 0; /* 修改了这里：增加了 100px 的顶部 margin，防止被导航栏遮挡 */
+            margin: 80px auto 0; /* 稍微减小了一点顶部间距 */
             padding: 40px 20px;
             color: #333;
         }
@@ -72,7 +64,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 60px;
+            margin-bottom: 50px;
         }
         .bio-text {
             flex: 1;
@@ -80,23 +72,23 @@
         }
         .bio-text h1 {
             font-family: 'Newsreader', serif;
-            font-size: 2.5em;
-            margin-bottom: 15px;
+            font-size: 2.1em; /* 调小：原来是 2.5em */
+            margin-bottom: 12px;
             font-weight: 600;
         }
         .bio-text p {
             font-family: 'Mulish', sans-serif;
-            font-size: 1.1em;
+            font-size: 1.05em; /* 调小：原来是 1.1em */
             line-height: 1.6;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
         .bio-links {
-            margin-top: 20px;
+            margin-top: 15px;
         }
         .bio-links a {
             margin-right: 15px;
             font-weight: 600;
-            font-size: 1.05em;
+            font-size: 1em; /* 调小：原来是 1.05em */
             color: #1a73e8;
             text-decoration: none;
         }
@@ -104,8 +96,8 @@
             text-decoration: underline;
         }
         .profile-img-custom {
-            width: 220px;
-            height: 220px;
+            width: 180px; /* 调小头像：原来是 220px */
+            height: 180px;
             border-radius: 50%;
             object-fit: cover;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -114,26 +106,26 @@
         /* 章节标题 */
         .section-title-custom {
             font-family: 'Newsreader', serif;
-            font-size: 2em;
+            font-size: 1.7em; /* 调小：原来是 2em */
             border-bottom: 2px solid #eaeaea;
-            padding-bottom: 10px;
-            margin-bottom: 30px;
+            padding-bottom: 8px;
+            margin-bottom: 25px;
             font-weight: 600;
         }
 
         /* 论文列表区域 */
         .paper-item {
             display: flex;
-            margin-bottom: 40px;
+            margin-bottom: 35px;
             align-items: flex-start;
         }
         .paper-img {
-            width: 260px;
-            height: 145px;
+            width: 240px; /* 调小缩略图：原来是 260px */
+            height: 135px;
             object-fit: cover;
-            margin-right: 30px;
+            margin-right: 25px;
             border: 1px solid #eaeaea;
-            border-radius: 8px;
+            border-radius: 6px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.06);
             flex-shrink: 0;
         }
@@ -142,27 +134,27 @@
             font-family: 'Mulish', sans-serif;
         }
         .paper-title {
-            font-size: 1.2em;
+            font-size: 1.1em; /* 调小：原来是 1.2em */
             font-weight: 700;
             color: #111;
-            margin: 0 0 8px 0;
+            margin: 0 0 6px 0;
         }
         .paper-authors {
-            margin: 0 0 5px 0;
-            font-size: 1em;
+            margin: 0 0 4px 0;
+            font-size: 0.95em; /* 调小：原来是 1em */
         }
         .paper-venue {
             font-style: italic;
-            margin: 0 0 8px 0;
+            margin: 0 0 6px 0;
             color: #555;
-            font-size: 0.95em;
+            font-size: 0.9em; /* 调小：原来是 0.95em */
         }
         .paper-links {
-            margin: 5px 0 10px 0;
+            margin: 5px 0 8px 0;
         }
         .paper-links a {
             margin-right: 12px;
-            font-size: 0.95em;
+            font-size: 0.9em; /* 调小：原来是 0.95em */
             color: #1a73e8;
             text-decoration: none;
             font-weight: 600;
@@ -171,11 +163,43 @@
             text-decoration: underline;
         }
         .paper-desc {
-            font-size: 0.95em;
+            font-size: 0.9em; /* 调小：原来是 0.95em */
             color: #444;
             margin: 0;
             text-align: justify;
             line-height: 1.5;
+        }
+
+        /* Awards 列表样式 */
+        .award-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 15px;
+            font-family: 'Mulish', sans-serif;
+            border-bottom: 1px dashed #eaeaea;
+            padding-bottom: 8px;
+        }
+        .award-info {
+            flex: 1;
+        }
+        .award-title {
+            font-weight: 600;
+            font-size: 1.05em;
+            color: #111;
+            margin: 0 0 4px 0;
+        }
+        .award-desc {
+            font-size: 0.9em;
+            color: #555;
+            margin: 0;
+        }
+        .award-date {
+            font-size: 0.95em;
+            color: #666;
+            margin-left: 20px;
+            flex-shrink: 0;
+            font-style: italic;
         }
 
         /* 响应式手机端适配 */
@@ -192,15 +216,24 @@
                 flex-direction: column;
             }
             .paper-img {
-                margin-bottom: 20px;
+                margin-bottom: 15px;
                 width: 100%;
                 height: auto;
+            }
+            .award-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .award-date {
+                margin-left: 0;
+                margin-top: 5px;
             }
         }
     </style>
 </head>
 
-<body id="page-top" style="background-color: #ffffff;"> <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav" style="background-color: #ffffff;">
+<body id="page-top" style="background-color: #ffffff;"> 
+    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav" style="background-color: #ffffff;">
         <div class="container px-5">
             <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
@@ -215,6 +248,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
                     </li>
                 </ul>
             </div>
@@ -238,8 +274,9 @@
             <img src="static/assets/img/photo.png" onerror="this.src='https://via.placeholder.com/220'" alt="Profile Photo" class="profile-img-custom">
         </div>
 
-        <div id="publications" style="padding-top: 60px;"> <h2 class="section-title-custom"><i class="bi bi-file-text-fill"></i> Publications</h2>
-            <p style="font-size: 0.95em; color: #666; margin-bottom: 30px; font-family: 'Mulish', sans-serif;">
+        <div id="publications" style="padding-top: 60px;"> 
+            <h2 class="section-title-custom"><i class="bi bi-file-text-fill" style="font-size: 0.9em; margin-right: 5px;"></i> Publications</h2>
+            <p style="font-size: 0.9em; color: #666; margin-bottom: 25px; font-family: 'Mulish', sans-serif;">
                 * indicates equal contribution. Some papers are highlighted.
             </p>
 
@@ -272,11 +309,40 @@
                     <p class="paper-desc">In this paper, we propose ReconX, a novel 3D scene reconstruction paradigm that reframes the ambiguous reconstruction challenge as a temporal generation task. The key insight is to unleash the strong generative prior of large pre-trained video diffusion models for sparse-view reconstruction.</p>
                 </div>
             </div>
-            
         </div>
+
+        <div id="awards" style="padding-top: 60px;">
+            <h2 class="section-title-custom"><i class="bi bi-award-fill" style="font-size: 0.9em; margin-right: 5px;"></i> Awards & Honors</h2>
+            
+            <div class="award-item">
+                <div class="award-info">
+                    <h3 class="award-title">National Scholarship</h3>
+                    <p class="award-desc">Awarded to the top 1% of students for outstanding academic performance.</p>
+                </div>
+                <div class="award-date">2024 & 2025</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-info">
+                    <h3 class="award-title">First Prize, Outstanding Student Scholarship</h3>
+                    <p class="award-desc">Tsinghua University.</p>
+                </div>
+                <div class="award-date">2023</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-info">
+                    <h3 class="award-title">Excellent Undergraduate Thesis Award</h3>
+                    <p class="award-desc">Department of Computer Science and Technology, Tsinghua University.</p>
+                </div>
+                <div class="award-date">2025</div>
+            </div>
+
+        </div>
+
     </div>
 
-    <footer class="bg-bottom text-center py-5" style="border-top: 1px solid #eaeaea; background-color: #f8f9fa;">
+    <footer class="bg-bottom text-center py-5" style="border-top: 1px solid #eaeaea; background-color: #f8f9fa; margin-top: 40px;">
         <div class="container px-5">
             <div class="text-muted small">
                 <div id="copyright-text" class="mb-2">© 2026 Your Name. All Rights Reserved.</div>

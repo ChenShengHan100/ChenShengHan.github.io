@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="Academic Webpage" />
     <meta name="author" content="yixin0313" />
-    <title id="title">Shenghan Chen - Personal Homepage</title>
+    <title id="title">Hanyang Wang - Personal Homepage</title>
 
     <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
 
@@ -27,22 +27,30 @@
     <script type="text/javascript" src="static/js/marked.min.js"></script>
 
     <script>
+        // See https://docs.mathjax.org/en/latest/index.html for more details.
         MathJax = {
             tex: {
-                packages: {},
-                inlineMath: [['$', '$'], ['\\(', '\\)']],
-                displayMath: [['$$', '$$'], ['\\[', '\\]']],
-                processEscapes: false,
-                processEnvironments: true,
-                processRefs: true,
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,
-                tags: 'all',
-                tagSide: 'right',
-                tagIndent: '0.8em',
-                useLabelIds: true,
-                maxMacros: 10000,
-                maxBuffer: 5 * 1024,
-                formatError: (jax, err) => jax.formatError(err)
+                packages: {},              // extensions to use
+                inlineMath: [              // start/end delimiter pairs for in-line math
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ],
+                displayMath: [             // start/end delimiter pairs for display math
+                    ['$$', '$$'],
+                    ['\\[', '\\]']
+                ],
+                processEscapes: false,      // use \$ to produce a literal dollar sign
+                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
+                processRefs: true,         // process \ref{...} outside of math mode
+                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
+                tags: 'all',               // or 'ams' or 'all'
+                tagSide: 'right',          // side for \tag macros
+                tagIndent: '0.8em',        // amount to indent tags
+                useLabelIds: true,         // use label name rather than tag for ids
+                maxMacros: 10000,          // maximum number of macro substitutions per expression
+                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
+                formatError:               // function called when TeX syntax errors occur
+                    (jax, err) => jax.formatError(err)
             }
         };
     </script>
@@ -55,8 +63,8 @@
     <style>
         .custom-container {
             max-width: 900px;
-            margin: 100px auto 0 auto; /* 增加了 100px 的 margin-top 防止被导航栏遮挡 */
-            padding: 20px;
+            margin: 0 auto;
+            padding: 40px 20px;
             color: #333;
         }
         /* 顶部简介区域 */
@@ -146,4 +154,142 @@
         .paper-venue {
             font-style: italic;
             margin: 0 0 8px 0;
-            color
+            color: #555;
+            font-size: 0.95em;
+        }
+        .paper-links {
+            margin: 5px 0 10px 0;
+        }
+        .paper-links a {
+            margin-right: 12px;
+            font-size: 0.95em;
+            color: #1a73e8;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .paper-links a:hover {
+            text-decoration: underline;
+        }
+        .paper-desc {
+            font-size: 0.95em;
+            color: #444;
+            margin: 0;
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        /* 响应式手机端适配 */
+        @media (max-width: 768px) {
+            .bio-header {
+                flex-direction: column-reverse;
+                text-align: center;
+            }
+            .bio-text {
+                padding-right: 0;
+                margin-top: 30px;
+            }
+            .paper-item {
+                flex-direction: column;
+            }
+            .paper-img {
+                margin-bottom: 20px;
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+        <div class="container px-5">
+            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                MENU
+                <i class="bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg'); height: 200px; margin-top: 70px;">
+        </section>
+
+    <div class="custom-container" id="home">
+        
+        <div class="bio-header">
+            <div class="bio-text">
+                <h1>Hanyang Wang | 汪晗阳</h1>
+                <p>I'm currently a first-year master's student in the Department of Electronic Engineering at Tsinghua University, advised by Prof. Yueqi Duan. In 2025, I obtained my B.Eng. in the Department of Computer Science and Technology at Tsinghua University. I'm also working closely with Fangfu Liu.</p>
+                <p>My research interests lie in 3D Computer Vision, Video Generation, and AIGC.</p>
+                <div class="bio-links">
+                    <a href="#">Email</a> / 
+                    <a href="#">CV</a> / 
+                    <a href="#">Scholar</a> / 
+                    <a href="#">Github</a>
+                </div>
+            </div>
+            <img src="static/assets/img/photo.png" onerror="this.src='https://via.placeholder.com/220'" alt="Profile Photo" class="profile-img-custom">
+        </div>
+
+        <div id="publications" style="padding-top: 60px;"> <h2 class="section-title-custom"><i class="bi bi-file-text-fill"></i> Publications</h2>
+            <p style="font-size: 0.95em; color: #666; margin-bottom: 30px; font-family: 'Mulish', sans-serif;">
+                * indicates equal contribution. Some papers are highlighted.
+            </p>
+
+            <div class="paper-item">
+                <img src="https://via.placeholder.com/400x240" alt="CFG-Ctrl" class="paper-img">
+                <div class="paper-info">
+                    <h3 class="paper-title">CFG-Ctrl: Control-Based Classifier-Free Diffusion Guidance</h3>
+                    <p class="paper-authors"><strong>Hanyang Wang*</strong>, Yiyang Liu*, Jiawei Chi, Fangfu Liu, Ran Xue, Yueqi Duan</p>
+                    <p class="paper-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</p>
+                    <div class="paper-links">
+                        <a href="#">[arXiv]</a> 
+                        <a href="#">[Code]</a> 
+                        <a href="#">[Project Page]</a>
+                    </div>
+                    <p class="paper-desc">We propose CFG-Ctrl, a unified framework that reinterprets CFG as a control applied to the first-order continuous-time generative flow. Based on this control-theoretic view, we further introduce SMC-CFG, which uses sliding mode control to drive the flow toward a rapidly convergent sliding manifold.</p>
+                </div>
+            </div>
+
+            <div class="paper-item">
+                <img src="https://via.placeholder.com/400x240" alt="ReconX" class="paper-img">
+                <div class="paper-info">
+                    <h3 class="paper-title">ReconX: Reconstruct Any Scene from Sparse Views with Video Diffusion Model</h3>
+                    <p class="paper-authors">Fangfu Liu*, Wenqiang Sun*, <strong>Hanyang Wang*</strong>, Yikai Wang, Haowen Sun, Junliang Ye, Jun Zhang, Yueqi Duan</p>
+                    <p class="paper-venue">IEEE Transactions on Image Processing (TIP), 2025</p>
+                    <div class="paper-links">
+                        <a href="#">[arXiv]</a> 
+                        <a href="#">[Code]</a> 
+                        <a href="#">[Project Page]</a>
+                    </div>
+                    <p class="paper-desc">In this paper, we propose ReconX, a novel 3D scene reconstruction paradigm that reframes the ambiguous reconstruction challenge as a temporal generation task. The key insight is to unleash the strong generative prior of large pre-trained video diffusion models for sparse-view reconstruction.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer class="bg-bottom text-center py-5" style="border-top: 1px solid #eaeaea; background-color: #f8f9fa;">
+        <div class="container px-5">
+            <div class="text-muted small">
+                <div id="copyright-text" class="mb-2">© 2026 Your Name. All Rights Reserved.</div>
+                <a id="github-link" href="https://github.com/senli1073" style="color: #6c757d;">Github</a>
+                <span class="mx-1">&middot;</span>
+                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE" style="color: #6c757d;">License</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

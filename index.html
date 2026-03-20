@@ -58,7 +58,10 @@
             margin: 80px auto 0;
             padding: 40px 30px; 
             color: #333;
+            font-size: 15px; /* 全局基础字号设为15px */
         }
+        
+        /* 顶部简介区域 */
         .bio-header {
             display: flex;
             justify-content: space-between;
@@ -71,13 +74,13 @@
         }
         .bio-text h1 {
             font-family: 'Newsreader', serif;
-            font-size: 2.1em;
+            font-size: 32px; /* 对齐原版姓名大小 */
             margin-bottom: 12px;
             font-weight: 600;
         }
         .bio-text p {
             font-family: 'Mulish', sans-serif;
-            font-size: 1.05em;
+            font-size: 15px;
             line-height: 1.6;
             margin-bottom: 12px;
         }
@@ -87,7 +90,7 @@
         .bio-links a {
             margin-right: 15px;
             font-weight: 600;
-            font-size: 1em;
+            font-size: 15px;
             color: #1a73e8;
             text-decoration: none;
         }
@@ -95,35 +98,37 @@
             text-decoration: underline;
         }
         .profile-img-custom {
-            width: 180px;
-            height: 180px;
+            width: 170px; /* 头像稍微缩小一点配合细致的排版 */
+            height: 170px;
             border-radius: 50%;
             object-fit: cover;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
 
+        /* 章节标题 */
         .section-title-custom {
             font-family: 'Newsreader', serif;
-            font-size: 1.7em;
-            border-bottom: 2px solid #eaeaea;
+            font-size: 22px; /* 对齐原版 Section 大小 */
+            border-bottom: 1px solid #eaeaea; /* 边框调细 */
             padding-bottom: 8px;
             margin-bottom: 25px;
             font-weight: 600;
         }
 
+        /* 论文列表区域 */
         .paper-item {
             display: flex;
             margin-bottom: 35px;
             align-items: flex-start;
         }
         .paper-img {
-            width: 240px;
-            height: 135px;
+            width: 200px; /* 缩略图调小，与Hanyang的主页保持一致比例 */
+            height: 115px;
             object-fit: cover;
             margin-right: 25px;
             border: 1px solid #eaeaea;
-            border-radius: 6px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
             flex-shrink: 0;
         }
         .paper-info {
@@ -131,27 +136,27 @@
             font-family: 'Mulish', sans-serif;
         }
         .paper-title {
-            font-size: 1.1em;
+            font-size: 16px; /* 论文标题 */
             font-weight: 700;
             color: #111;
-            margin: 0 0 6px 0;
+            margin: 0 0 4px 0;
         }
         .paper-authors {
             margin: 0 0 4px 0;
-            font-size: 0.95em;
+            font-size: 14px; /* 作者列表调小 */
         }
         .paper-venue {
             font-style: italic;
             margin: 0 0 6px 0;
             color: #555;
-            font-size: 0.9em;
+            font-size: 14px;
         }
         .paper-links {
             margin: 5px 0 8px 0;
         }
         .paper-links a {
             margin-right: 12px;
-            font-size: 0.9em;
+            font-size: 14px;
             color: #1a73e8;
             text-decoration: none;
             font-weight: 600;
@@ -160,13 +165,14 @@
             text-decoration: underline;
         }
         .paper-desc {
-            font-size: 0.9em;
+            font-size: 14px; /* 摘要调小 */
             color: #444;
             margin: 0;
             text-align: justify;
             line-height: 1.5;
         }
 
+        /* Awards 列表样式 */
         .award-item {
             display: flex;
             justify-content: space-between;
@@ -181,17 +187,17 @@
         }
         .award-title {
             font-weight: 600;
-            font-size: 1.05em;
+            font-size: 15px; /* 奖项名 */
             color: #111;
             margin: 0 0 4px 0;
         }
         .award-desc {
-            font-size: 0.9em;
+            font-size: 14px;
             color: #555;
             margin: 0;
         }
         .award-date {
-            font-size: 0.95em;
+            font-size: 14px;
             color: #666;
             margin-left: 20px;
             flex-shrink: 0;
@@ -239,13 +245,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#home">HOME</a>
+                        <a class="nav-link me-lg-3" href="#home" style="font-size: 14px;">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                        <a class="nav-link me-lg-3" href="#publications" style="font-size: 14px;">PUBLICATIONS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                        <a class="nav-link me-lg-3" href="#awards" style="font-size: 14px;">AWARDS</a>
                     </li>
                 </ul>
             </div>
@@ -256,7 +262,7 @@
         
         <div class="bio-header">
             <div class="bio-text">
-                <h1>Shenghan Chen | 陈晟涵</h1>
+                <h1>Shenghan Chen | 陈晟晗</h1>
                 <p>I am an undergraduate student majoring in Software Engineering at Shandong University. I am currently working as an Undergraduate Research Assistant at the SDU Time Lab, supervised by Prof. Xiankai Lu and Prof. Yilong Yin. Previously, I also collaborated with Prof. Yawei Li from ETH Zürich.</p>
                 <p>My research interests primarily lie in Computer Vision, Multi-modal Learning, Vision-Language-Action (VLA) models, and Efficient AI.</p>
                 <div class="bio-links">
@@ -271,7 +277,7 @@
 
         <div id="publications" style="padding-top: 60px;"> 
             <h2 class="section-title-custom"><i class="bi bi-file-text-fill" style="font-size: 0.9em; margin-right: 5px;"></i> Publications</h2>
-            <p style="font-size: 0.9em; color: #666; margin-bottom: 25px; font-family: 'Mulish', sans-serif;">
+            <p style="font-size: 14px; color: #666; margin-bottom: 25px; font-family: 'Mulish', sans-serif;">
                 * indicates equal contribution.
             </p>
 
@@ -352,11 +358,11 @@
 
     <footer class="bg-bottom text-center py-5" style="border-top: 1px solid #eaeaea; background-color: #f8f9fa; margin-top: 40px;">
         <div class="container px-5">
-            <div class="text-muted small">
+            <div class="text-muted small" style="font-size: 13px;">
                 <div id="copyright-text" class="mb-2">© 2026 Shenghan Chen. All Rights Reserved.</div>
-                <a id="github-link" href="#" style="color: #6c757d;">Github</a>
+                <a id="github-link" href="#" style="color: #6c757d; text-decoration: none;">Github</a>
                 <span class="mx-1">&middot;</span>
-                <a id="license-link" href="#" style="color: #6c757d;">License</a>
+                <a id="license-link" href="#" style="color: #6c757d; text-decoration: none;">License</a>
             </div>
         </div>
     </footer>

@@ -7,7 +7,7 @@
     <meta name="description" content="Shenghan Chen Academic Webpage" />
     <meta name="author" content="Shenghan Chen" />
     
-    <title id="title">Shenghan Chen</title>
+    <title>Shenghan Chen</title>
 
     <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
 
@@ -23,35 +23,18 @@
 
     <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
 
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-    <script type="text/javascript" src="static/js/marked.min.js"></script>
-
     <script>
         MathJax = {
             tex: {
-                packages: {},
                 inlineMath: [['$', '$'], ['\\(', '\\)']],
                 displayMath: [['$$', '$$'], ['\\[', '\\]']],
                 processEscapes: false,
                 processEnvironments: true,
-                processRefs: true,
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,
-                tags: 'all',
-                tagSide: 'right',
-                tagIndent: '0.8em',
-                useLabelIds: true,
-                maxMacros: 10000,
-                maxBuffer: 5 * 1024,
-                formatError: (jax, err) => jax.formatError(err)
+                tags: 'all'
             }
         };
     </script>
-    <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
     <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    <script type="text/javascript" src="static/js/scripts.js"></script>
-    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 
     <style>
         .custom-container {
@@ -259,7 +242,7 @@
         
         <div class="bio-header">
             <div class="bio-text">
-                <h1>Shenghan Chen | 陈晟晗</h1>
+                <h1>Shenghan Chen | 陈晟涵</h1>
                 <p>I am an undergraduate student majoring in Software Engineering at Shandong University. I am currently working as an Undergraduate Research Assistant at the SDU Time Lab, supervised by Prof. Xiankai Lu and Prof. Yilong Yin. Previously, I also collaborated with Prof. Yawei Li from ETH Zürich.</p>
                 <p>My research interests primarily lie in Computer Vision, Multi-modal Learning, Vision-Language-Action (VLA) models, and Efficient AI.</p>
                 <div class="bio-links">
@@ -287,7 +270,6 @@
                     <div class="paper-links">
                         <a href="#">[arXiv]</a> 
                         <a href="#">[Code]</a> 
-                        <a href="#">[Project Page]</a>
                     </div>
                     <p class="paper-desc">We investigate the head-tail seesaw dilemma from the loss landscape view. By transferring long-tailed learning into a continual learning task, this paper uses continuous learning and sharpness perception to improve model attention to tail classes without relying on external synthetic data.</p>
                 </div>
@@ -300,9 +282,7 @@
                     <p class="paper-authors"><strong>Shenghan Chen</strong>, Yiming Liu, Yanzhen Wang, Yujia Wang, Xiankai Lu, Yawei Li</p>
                     <p class="paper-venue">Submitted to Machine Intelligence Research</p>
                     <div class="paper-links">
-                        <a href="#">[arXiv]</a> 
-                        <a href="#">[Code]</a> 
-                        <a href="#">[Project Page]</a>
+                        <a href="#">[Details]</a> 
                     </div>
                     <p class="paper-desc">We rethink data augmentation in Long-Tailed recognition, focusing on data distribution shift. Based on large models, we propose automated data augmentation to solve the bias problem caused by data imbalance and the mismatch between synthetic and raw data distributions.</p>
                 </div>
@@ -343,10 +323,10 @@
     <footer class="bg-bottom text-center py-5" style="border-top: 1px solid #eaeaea; background-color: #f8f9fa; margin-top: 40px;">
         <div class="container px-5">
             <div class="text-muted small" style="font-size: 13px;">
-                <div id="copyright-text" class="mb-2">© 2026 Shenghan Chen. All Rights Reserved.</div>
-                <a id="github-link" href="#" style="color: #6c757d; text-decoration: none;">Github</a>
+                <div class="mb-2">© 2026 Shenghan Chen. All Rights Reserved.</div>
+                <a href="#" style="color: #6c757d; text-decoration: none;">Github</a>
                 <span class="mx-1">&middot;</span>
-                <a id="license-link" href="#" style="color: #6c757d; text-decoration: none;">License</a>
+                <a href="#" style="color: #6c757d; text-decoration: none;">License</a>
             </div>
         </div>
     </footer>
